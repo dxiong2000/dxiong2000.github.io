@@ -111,9 +111,28 @@ body, html {
   }
 }
 
+ul.no-bullets {
+  width: 100%;
+  list-style-type: none;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 3.5s;
+  opacity: 0;
+  padding-top: 10px;
+}
 
+li {
+  width: 25%;  
+  text-align: left;
+  padding: 0px;
+  margin: 0;
+  float: left;
+}
 
-
+.fa-lg {
+  color:#56dfe9;
+}
 
 @keyframes mainBlock {
   0% {
