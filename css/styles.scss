@@ -128,7 +128,7 @@ body, html {
   }
 }
 
-.links {
+ul.links {
   width: 100%;
   list-style-type: none;
   -webkit-animation: mainFadeIn 2s forwards;
@@ -139,7 +139,7 @@ body, html {
   padding-top: 10px;
 }
 
-.icons {
+li.icons {
   width: 25%;  
   text-align: left;
   padding: 0px;
